@@ -1,0 +1,314 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* general styles */
+
+*,*::after,*::before{
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 18px;
+    font-family: 'Karla', sans-serif;
+}
+
+.container {
+    width: 1300px;
+    margin: 0 auto;
+    padding: 32px 0;
+}
+
+/* header */
+
+.flex-1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.flex-1 .brand {
+    color: rgb(34, 20, 71);
+    font-size:  34px;
+    text-decoration: none;
+    font-family: 'DM Serif Display', serif;
+}
+
+.nav a {
+    color: rgb(183,182,186);
+    text-decoration: none;
+    margin-left: 20px;
+    font-size: 20px;
+
+}
+
+.nav .active {
+    border: 2px solid rgb(183,182,186);
+    padding: 10px;
+}
+
+
+/* section-1 */
+
+.section-1 {
+    background-color: rgb(34, 20, 71);
+    height: 500px;
+}
+
+
+.article-1 {
+    color:  white;
+    width: 700px;
+    }
+
+.flex-2 {
+    display: flex;
+    justify-content: space-between;
+}    
+
+.article-1 h1 {
+    font-family: 'DM Serif Display', serif;
+    padding-top: 20px;
+    text-transform: capitalize;
+    font-size: 58px;
+    }
+
+ .article-1 p {
+     margin: 35px 0;
+     line-height: 1.2;
+
+ }   
+
+.article-1 a {
+    text-decoration: none;
+    border: 2px solid rgb(183,182,186);
+    padding: 10px;
+    color: rgb(183,182,186);
+    font-weight: bold;
+
+}
+
+
+
+.hr hr {
+    width: 200px;
+    text-align: left;
+    display: inline-block;
+}
+
+
+/* section-2 */
+
+.section-2 {
+    margin-top: 160px;
+    margin-bottom: 70px;
+}
+
+.align {
+    align-items: center;
+}
+
+.paragraph {
+    width: 600px;
+}
+
+.paragraph h3{
+    font-family: 'DM Serif Display', serif;
+    padding-top: 20px;
+    text-transform: capitalize;
+    font-size: 58px;
+    color: rgb(34, 20, 71);
+}
+
+.paragraph p {
+    margin: 35px 0;
+     line-height: 1.5;
+}
+
+.paragraph a {
+    text-decoration: none;
+    border: 2px solid rgb(183,182,186);
+    padding: 10px;
+    color: rgb(183,182,186);
+    font-weight: bold;
+}
+
+.section-3 h3 {
+    font-family: 'DM Serif Display', serif;
+    padding-top: 20px;
+    text-transform: capitalize;
+    font-size: 58px;
+    color: rgb(34, 20, 71);
+
+}
+
+.section-3 p{
+    margin: 20px 0;
+    line-height: 1.5;
+}
+
+.section-3 .icon {
+    text-decoration: none;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    display: inline-flex;
+    border-radius: 50%;
+    background-color: rgb(138,180,240);
+    margin: 20px 0;
+} 
+
+.section-3 h4 {
+    font-size: 26px;
+    color: rgb(34, 20, 71);
+    font-family: 'DM Serif Display', serif;
+}
+     
+.blog-1 {
+    margin: 40px 0;
+    width: 30%;
+}
+
+.article-4 {
+    display: flex;
+    justify-content: space-between;
+    
+    
+}
+
+.article-4 p {
+    color: rgb(154, 143, 187);;
+}
+
+/* last-section */
+
+.last-article {
+    color: white;
+    background-color: rgb(34, 20, 71);
+    padding: 60px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 250px;
+}
+
+.last-article h4 {
+    font-family: 'DM Serif Display', serif;
+    font-size: 58px;
+    width: 48%;
+    line-height: 1.5;
+    }
+
+.last-article a {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    border: 2px solid grey;
+    padding: 15px;
+    font-weight: bold;
+}
+
+
+/* footer */
+
+.nav .icon-fb {
+    font-size: 38px;
+}
+
+.last-nav {
+    text-align: center;
+}
+
+.last-nav a {
+    text-decoration: none;
+    color: grey;
+    margin-left: 25px;
+}
+
+small {
+   
+    background-color: rgb(34, 20, 71);
+    color: grey;
+    padding: 32px;
+    text-align: center;
+    font-size: 24px;
+    width: 100%;
+    
+    
+    
+}
+
+.last-div {
+    display: flex;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
